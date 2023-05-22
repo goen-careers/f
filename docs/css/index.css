@@ -5,8 +5,13 @@
     max-width: 600px;
     margin: 0 auto;
 }
+@media screen and (min-width: 600px) {
+    #sp {
+        border: #F5F5F5 solid 2px;
+    }
+}
 #sp .cta-button {
-    padding: min(3.4vw, 15px) 0;
+    padding: min(3.6vw, 16px) 0;
     margin-bottom: 6px;
 }
 .first-view {
