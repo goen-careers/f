@@ -15,7 +15,7 @@
     padding: min(3.6vw, 16px) 0;
     margin-bottom: 6px;
 }
-.first-view {
+#sp .first-view {
     position: relative;
 
     display: flex;
@@ -26,17 +26,17 @@
     width: 100%;
     height: 80vh;
 
-    background-image: url("../img/first-view-sp.jpg");
+    background-image: url("../img/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 @supports not (background: .) {
-    .first-view {
-        background-image: url("../img/webp/first-view-sp.webp");
+    #sp .first-view {
+        background-image: url("../img/webp/hero.webp");
     }
 }
-.first-view::before {
+#sp .first-view::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@
     content: "";
     background-color: rgba(0, 0, 0, 0.5);
 }
-.first-view__logo {
+#sp .first-view__logo {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -57,7 +57,7 @@
 
     font-size: 34px;
 }
-.first-view__headline {
+#sp .first-view__headline {
     position: absolute;
     top: 45%;
     left: 6%;
@@ -68,7 +68,7 @@
     line-height: 1.5;
     font-size: min(7.2vw, 30px);
 }
-.first-view__cta-button {
+#sp .first-view__cta-button {
     position: absolute;
     bottom: 20%;
     left: 50%;
@@ -78,7 +78,7 @@
 
     margin: 0;
 }
-.first-view__cation {
+#sp .first-view__cation {
     position: absolute;
     bottom: 11%;
 
@@ -87,10 +87,10 @@
     line-height: 1.8;
 }
 
-.service-summary {
+#sp .service-summary {
     padding: 40px 12px;
 }
-.service-summary__text {
+#sp .service-summary__text {
     display: block;
     width: 90%;
 
@@ -99,40 +99,40 @@
     font-weight: normal;
     font-size: 20px;
 }
-.service-summary__demo-article {
+#sp .service-summary__demo-article {
     display: block;
     width: 86%;
 
     margin: 8px auto;
 }
 
-.service-highlights {
+#sp .service-highlights {
     display: flex;
     flex-direction: column;
 
     padding: 40px 12px;
 }
-.service-highlights__item {
+#sp .service-highlights__item {
     padding: 20px;
 
     text-align: center;
 }
-.service-highlights__image {
+#sp .service-highlights__image {
     width: 60%;
 }
-.service-highlights__subtitle {
+#sp .service-highlights__subtitle {
     margin: 8px 0;
     font-size: 20px;
 }
-.service-highlights__description {
+#sp .service-highlights__description {
     margin: 14px 0;
     line-height: 1.5;
 }
 
-.service-benefits {
+#sp .service-benefits {
     padding: 40px 12px;
 }
-.service-benefits__subtitle {
+#sp .service-benefits__subtitle {
     width: 95%;
 
     margin: 30px auto 20px;
@@ -140,15 +140,15 @@
     font-weight: normal;
     font-size: 22px;
 }
-.service-benefits__demo-my-page,
-.service-benefits__demo-question {
+#sp .service-benefits__demo-my-page,
+#sp .service-benefits__demo-question {
     display: block;
     width: 86%;
 
     margin: 8px auto;
 }
 
-.service-appeal {
+#sp .service-appeal {
     position: relative;
 
     display: flex;
@@ -157,19 +157,19 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: 50vh;
+    height: 64vh;
 
-    background-image: url("../img/service-appeal-sp.jpg");
-    background-position: center;
+    background-image: url("../img/service-appeal.jpg");
+    background-position: 48% 65%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 370% auto;
 }
 @supports not (background: .) {
-    .service-appeal {
-        background-image: url("../img/webp/service-appeal-sp.webp");
+    #sp .service-appeal {
+        background-image: url("../img/webp/service-appeal.webp");
     }
 }
-.service-appeal::before {
+#sp .service-appeal::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -179,41 +179,41 @@
     height: 100%;
 
     content: "";
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.service-appeal__text {
+#sp .service-appeal__text {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translateX(-50%);
 
-    width: 92%;
+    width: 86%;
 
     margin: 0;
     line-height: 1.5;
-    font-size: min(4.2vw ,18px);
+    font-size: 4.8vw;
 }
-.service-appeal__cta-button {
+#sp .service-appeal__cta-button {
     position: absolute;
-    bottom: 15%;
+    bottom: 24%;
     left: 50%;
     transform: translateX(-50%);
 
-    width: 92%;
+    width: 90%;
 
     margin: 0;
 }
 
-.footer {
+#sp .footer {
     padding: 40px 0 120px;
 }
-.footer__logo {
+#sp .footer__logo {
     margin: 0;
     padding: 30px 0 20px;
 
     font-size: 32px;
 }
-.footer__copyright {
+#sp .footer__copyright {
     margin: 0;
 
     font-size: 12px;
