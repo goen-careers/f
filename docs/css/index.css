@@ -27,14 +27,10 @@
     height: 80vh;
 
     background-image: url("../img/hero.jpg");
+    background-image: -webkit-image-set(url("../img/webp/hero.webp") 1x);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-@supports not (background: .) {
-    #sp .first-view {
-        background-image: url("../img/webp/hero.webp");
-    }
 }
 #sp .first-view::before {
     position: absolute;
@@ -160,14 +156,10 @@
     height: 64vh;
 
     background-image: url("../img/service-appeal.jpg");
+    background-image: -webkit-image-set(url("../img/webp/service-appeal.webp") 1x);
     background-position: 48% 65%;
     background-repeat: no-repeat;
     background-size: 370% auto;
-}
-@supports not (background: .) {
-    #sp .service-appeal {
-        background-image: url("../img/webp/service-appeal.webp");
-    }
 }
 #sp .service-appeal::before {
     position: absolute;
