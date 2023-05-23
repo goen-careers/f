@@ -7,7 +7,8 @@
 }
 @media screen and (min-width: 600px) {
     #sp {
-        border: #F5F5F5 solid 2px;
+        border-left: #F5F5F5 solid 2px;
+        border-right: #F5F5F5 solid 2px;
     }
 }
 #sp .cta-button {
