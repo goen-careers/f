@@ -130,6 +130,7 @@
 #sp .service-highlights__cta-area {
     width: 92%;
 
+    padding-top: 20px;
     margin: 0 auto;
 }
 #sp a:has(>.service-highlights__cta-button) {
