@@ -127,6 +127,28 @@
     margin: 14px 0;
     line-height: 1.5;
 }
+#sp .service-highlights__cta-area {
+    width: 92%;
+
+    margin: 0 auto;
+}
+#sp a:has(>.service-highlights__cta-button) {
+    width: 100%;
+
+    margin: 0 auto;
+}
+#sp .service-highlights__cta-button {
+    width: 100%;
+
+    margin: 0 0 10px;
+}
+#sp .service-highlights__cation {
+    width: 100%;
+
+    line-height: 1.8;
+
+    margin-top: 10px;
+}
 
 #sp .service-benefits {
     padding: 40px 12px;
@@ -198,6 +220,14 @@
 
     margin: 0;
 }
+#sp .service-appeal__cation {
+    position: absolute;
+    bottom: 10.5%;
+
+    width: 90%;
+
+    line-height: 1.8;
+}
 
 #sp .footer {
     padding: 40px 0 120px;
@@ -210,6 +240,4 @@
 }
 #sp .footer__copyright {
     margin: 0;
-
-    font-size: 12px;
 }
