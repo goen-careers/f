@@ -64,7 +64,7 @@
     line-height: 1.5;
     font-size: min(7.2vw, 30px);
 }
-.e #sp .first-view__headline {
+#e #sp .first-view__headline {
     top: 40%;
 }
 #sp .first-view__cta-button {
@@ -97,12 +97,6 @@
     line-height: 1.4;
     font-weight: normal;
     font-size: 20px;
-}
-#sp .service-summary__demo-article {
-    display: block;
-    width: 86%;
-
-    margin: 8px auto;
 }
 
 #sp .service-highlights {
@@ -161,13 +155,6 @@
     line-height: 1.4;
     font-weight: normal;
     font-size: 22px;
-}
-#sp .service-benefits__demo-my-page,
-#sp .service-benefits__demo-question {
-    display: block;
-    width: 86%;
-
-    margin: 8px auto;
 }
 
 #sp .service-appeal {
