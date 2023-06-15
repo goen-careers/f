@@ -396,6 +396,17 @@
     padding: 0 14px 40px;
     margin: 80px 0 0;
 }
+#sp .recommendation-reason__heading--text {
+    width: 96%;
+
+    margin: 0 auto;
+    font-size: min(6.4vw, 28px);
+    line-height: 1.6;
+    -webkit-text-stroke: 0.01em #151515;
+}
+#sp .recommendation-reason__heading-area {
+    position: relative;
+}
 #sp .recommendation-reason__heading {
     display: block;
 
@@ -403,20 +414,25 @@
 
     margin: 0 auto;
     font-size: min(6.4vw, 28px);
-    line-height: 1.8;
+    line-height: 2;
     -webkit-text-stroke: 0.01em #151515;
 }
 #sp .recommendation-reason__heading .text-underline-yellow {
     background: linear-gradient(transparent 70%, #FFF173 0);
 }
 #sp .recommendation-reason__heading--bracket {
+    position: absolute;
+
     font-size: min(9.8vw, 38px);
-    padding-right: 10px;
-    -webkit-text-stroke: 0.02em #B3B3B3;
+    -webkit-text-stroke: 0.05em #B3B3B3;
 }
-#sp .recommendation-reason__heading--bracket:last-of-type {
-    padding-right: 0;
-    padding-left: 10px;
+#sp .recommendation-reason__heading--bracket.start {
+    top: 0;
+    left: 0;
+}
+#sp .recommendation-reason__heading--bracket.end {
+    bottom: 0;
+    right: 0;
 }
 #sp .recommendation-reason__heading--main {
     font-size: min(9vw, 35px);
