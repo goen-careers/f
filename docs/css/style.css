@@ -1,3 +1,14 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+dd {
+    margin-inline-start: 0;
+}
+dt {
+    margin: 0;
+}
+
 .text-left {
     text-align: left;
 }
@@ -13,22 +24,55 @@
     font-size: 12px;
 }
 .text-md {
-    font-size: 20px;
+    font-size: 18px;
 }
 .text-lg {
     font-size: 28px;
 }
+@media screen and (max-width: 400px) {
+    .text-sm {
+        font-size: 10px;
+    }
+    .text-md {
+        font-size: 16px;
+    }
+    .text-lg {
+        font-size: 24px;
+    }
+}
 .text-bold {
     font-weight: bold;
+}
+.text-primary {
+    color: #5D5FEF;
 }
 .text-white {
     color: #FFFFFF;
 }
 .text-black {
-    color: #2C2C32;
+    color: #151515;
 }
 .text-gray {
-    color: #CDCDCD;
+    color: #7B7B7B;
+}
+.text-light-gray {
+    color: #B3B3B3;
+}
+.text-light-lavender {
+    color: #D3D5FF;
+}
+.text-yellow {
+    color: #FFF173;
+}
+.text-dotted-yellow {
+    background-image: radial-gradient(circle at center, #FFF173 22%, transparent 22%);
+    background-position: top right;
+    background-repeat: repeat-x;
+    background-size: 1.1em 0.4em;
+    padding-top: 12px;
+}
+.text-underline-yellow {
+    background: linear-gradient(transparent 88%, #FFF173 0);
 }
 
 /* background color */
@@ -40,6 +84,12 @@
 }
 .bg-light-lavender {
     background: #F8F8FB;
+}
+.bg-yellow {
+    background: #FFEE56;
+}
+.bg-black {
+    background: #151515;
 }
 
 /* default */
@@ -72,20 +122,25 @@ img {
 }
 .cta-button {
     display: inline-block;
+
     padding: 16px 0;
-    border-radius: 6px;
-    font-size: 16px;
+    border-radius: 4px;
+    border: solid 5px #FFFFFF;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
     letter-spacing: 1px;
+    -webkit-text-stroke: 0.004em #151515;
 }
 .demo-screenshot {
     display: block;
     width: 86%;
     max-width: 360px;
 
-    margin: 30px auto;
-    border-radius: 26px;
+    margin: 0 auto;
+    border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.display-none {
+    display: none !important;
 }
