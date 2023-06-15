@@ -65,7 +65,7 @@
     left: 50%;
     transform: translateX(-50%);
 
-    width: 60%;
+    width: 58%;
     max-width: 245px;
     max-height: 380px;
 }
@@ -667,7 +667,7 @@
     #sp .first-view__eye-catch {
         bottom: 14%;
         transform: translateX(-50%);
-        width: 55%;
+        width: 54%;
     }
 
     #sp .recommendation-reason__heading--main {
