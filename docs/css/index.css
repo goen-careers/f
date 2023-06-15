@@ -29,7 +29,7 @@
 }
 #sp .first-view__heading {
     position: absolute;
-    top: 15%;
+    top: 14%;
     left: 50%;
     transform: translateX(-50%);
 
@@ -49,7 +49,7 @@
 }
 #sp .first-view__subtitle {
     position: absolute;
-    top: 24%;
+    top: 22%;
     left: 50%;
     transform: translateX(-50%);
 
