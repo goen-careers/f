@@ -272,6 +272,7 @@
         </footer>
     </section>
     <script type="text/javascript">
+        // switch display of floating button
         window.addEventListener("scroll", function () {
             const f_b = document.querySelector(".floating-button");
             const scroll = window.pageYOffset;
@@ -280,6 +281,11 @@
             } else {
                 f_b.classList.add("display-none");
             }
+        });
+
+        // alert when device is rotated
+        window.addEventListener("orientationchange", function () {
+            alert("画面の向きを縦にしてご利用ください。");
         });
     </script>
 </body>

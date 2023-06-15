@@ -2,12 +2,7 @@
     max-width: 500px;
     margin: 0 auto;
 }
-@media screen and (min-width: 500px) {
-    #sp {
-        border-left: #F5F5F5 solid 2px;
-        border-right: #F5F5F5 solid 2px;
-    }
-}
+
 #sp .cta-button {
     padding: min(3.6vw, 16px) 0;
     margin-bottom: 12px;
@@ -21,7 +16,7 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: 90vh;
+    height: max(90vh, 667px);
 }
 #sp .first-view__logo {
     position: absolute;
@@ -184,7 +179,7 @@
 }
 #sp .reader-issue__subtitle--main {
     margin-top: 10px;
-    font-size: 9.2vw;
+    font-size: min(9.2vw, 44px);
     -webkit-text-stroke: 0.03em #5D5FEF;
     text-shadow: 2px 2px 0 #151515;
     line-height: 1.5;
@@ -252,7 +247,7 @@
 #sp .solution-proposal__heading--main {
     -webkit-text-stroke: 0.02em #151515;
     text-shadow: 2px 2px #FFF173;
-    font-size: 8.4vw;
+    font-size: min(8.4vw, 40px);
     line-height: 2.2;
 }
 #sp .solution-proposal__advice {
@@ -278,7 +273,7 @@
     display: flex;
 
     width: 45%;
-    height: 160px;
+    height: 165px;
 
     justify-content: center;
     align-items: center;
@@ -381,7 +376,7 @@
 
     content: "";
     border-style: solid;
-    border-width: 0 0 50px 100vw;
+    border-width: 0 0 50px min(100vw, 500px);
 }
 #sp .bg-primary-triangle:before {
     top: -50px;
@@ -662,9 +657,10 @@
     font-size: 14px;
 }
 
+/* For iPhone SE size */
 @media screen and (max-width: 376px) {
     #sp .first-view {
-        height: 100vh;
+        height: max(100vh, 667px);
     }
     #sp .first-view__eye-catch {
         bottom: 14%;
@@ -676,5 +672,17 @@
         font-size: 8.7vw;
         text-shadow: 4px 4px 0 #FFF173;
         line-height: 1.6;
+    }
+}
+
+/* For More than 500px */
+@media screen and (min-width: 500px) {
+    #sp {
+        border-left: #F5F5F5 solid 2px;
+        border-right: #F5F5F5 solid 2px;
+    }
+
+    #sp .first-view {
+        height: max(80vh, 800px);
     }
 }
