@@ -17,7 +17,8 @@
     flex-direction: column;
     text-align: center;
     width: 100%;
-    height: max(90vh, 667px);
+    height: 90vh;
+    min-height: 667px;
 }
 #sp .first-view__logo {
     position: absolute;
@@ -662,7 +663,8 @@
 /* For iPhone SE size */
 @media screen and (max-width: 376px) {
     #sp .first-view {
-        height: max(100vh, 667px);
+        height: 100vh;
+        min-height: 667px;
     }
     #sp .first-view__eye-catch {
         bottom: 14%;
@@ -685,6 +687,7 @@
     }
 
     #sp .first-view {
-        height: max(80vh, 800px);
+        height: 80vh;
+        min-height: 750px;
     }
 }
