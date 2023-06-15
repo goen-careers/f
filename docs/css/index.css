@@ -278,7 +278,7 @@
     display: flex;
 
     width: 45%;
-    height: 135px;
+    height: 160px;
 
     justify-content: center;
     align-items: center;
@@ -291,10 +291,10 @@
 #sp .solution-proposal__flex-right--text {
     display: block;
 
-    padding: 0 10px;
+    padding: 0 12px;
 
-    font-size: 15px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.4;
     border-radius: 10px;
 }
 
@@ -665,5 +665,16 @@
 @media screen and (max-width: 376px) {
     #sp .first-view {
         height: 100vh;
+    }
+    #sp .first-view__eye-catch {
+        bottom: 14%;
+        transform: translateX(-50%);
+        width: 55%;
+    }
+
+    #sp .recommendation-reason__heading--main {
+        font-size: 8.7vw;
+        text-shadow: 4px 4px 0 #FFF173;
+        line-height: 1.6;
     }
 }
