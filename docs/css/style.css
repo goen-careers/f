@@ -131,6 +131,7 @@ img {
     cursor: pointer;
     letter-spacing: 1px;
     -webkit-text-stroke: 0.004em #151515;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
 }
 .demo-screenshot {
     display: block;
