@@ -444,6 +444,7 @@
     font-size: min(9vw, 35px);
     text-shadow: 4px 4px 0 #FFF173;
     line-height: 1.8;
+    -webkit-text-stroke: 0.02em #151515;
 }
 #sp .recommendation-reason__item {
     padding: 20px 0 0;
