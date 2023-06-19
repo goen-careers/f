@@ -229,10 +229,13 @@
 }
 
 #sp .solution-proposal__conjunction {
-    padding: 12px 0;
+    padding: 10px 0;
     text-align: center;
     font-size: 20px;
     -webkit-text-stroke: 0.02em #151515;
+
+    background: linear-gradient(-45deg, #FEEC4B 13%, #FFF173 13%, #FFF173 50%, #FEEC4B 50%, #FEEC4B 63%, #FFF173 63%, #FFF173);
+    background-size: 35px 35px;
 }
 
 #sp .solution-proposal {
