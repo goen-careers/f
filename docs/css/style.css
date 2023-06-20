@@ -133,6 +133,11 @@ img {
     -webkit-text-stroke: 0.004em #151515;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
 }
+@media screen and (max-width: 376px) {
+    .cta-button {
+        -webkit-text-stroke: 0 #151515;
+    }
+}
 .demo-screenshot {
     display: block;
     width: 86%;
