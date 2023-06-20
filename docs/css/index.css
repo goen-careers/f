@@ -66,15 +66,15 @@
     left: 50%;
     transform: translateX(-50%);
 
-    width: 58%;
-    max-width: 245px;
-    max-height: 380px;
+    width: 70%;
+    max-width: 280px;
+    min-width: 220px;
 
     box-shadow: 0 0 0;
 }
 #sp .first-view__cta-area {
     position: absolute;
-    bottom: 6%;
+    bottom: 8%;
     left: 50%;
     transform: translateX(-50%);
 
@@ -690,9 +690,12 @@
         min-height: 667px;
     }
     #sp .first-view__eye-catch {
-        bottom: 14%;
+        bottom: 20%;
         transform: translateX(-50%);
         width: 54%;
+    }
+    #sp .first-view__subtitle {
+        -webkit-text-stroke: 0 #FFFFFF;
     }
 
     #sp .recommendation-reason__heading--main {
