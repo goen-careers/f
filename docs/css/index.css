@@ -580,7 +580,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 20px 16px 20px 45px;
+    padding: 20px 32px 20px 45px;
     font-size: 14px;
 }
 #sp .faq__question::before,
@@ -601,14 +601,20 @@
     line-height: 1.2;
 }
 #sp .faq__question::after {
-    transform: translateY(-25%) rotate(45deg);
+    position: absolute;
+
     width: 7px;
     height: 7px;
+    right: 4%;
+    transform: translateY(-25%) rotate(45deg);
+
+    display: block;
+    content: '';
     margin-left: 10px;
     border-bottom: 2px solid #D3D5FF;
     border-right: 2px solid #D3D5FF;
-    content: '';
     transition: transform .5s;
+    z-index: 100;
 }
 #sp .faq__area[open] .faq__dashed-line {
     width: 92%;
