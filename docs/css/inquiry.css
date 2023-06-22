@@ -1,0 +1,49 @@
+#sp {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 70px 0 0;
+}
+
+#sp .inquiry-heading {
+    padding: 20px 0 40px;
+}
+#sp .inquiry-heading__title {
+    -webkit-text-stroke: 0.01em #5D5FEF;
+}
+
+#sp .inquiry-content {
+    padding: 16px 0;
+}
+#sp .inquiry-content__text {
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+#sp .inquiry-content__email-address {
+    text-align: center;
+}
+#sp .inquiry-content__email-address--text {
+    display: inline-block;
+
+    font-size: 16px;
+}
+
+@media screen and (max-width: 414px) {
+    #sp {
+        padding-top: 40px;
+    }
+
+    #sp .inquiry-heading {
+        padding-bottom: 20px;
+    }
+    #sp .inquiry-heading__title {
+        -webkit-text-stroke: 0 #5D5FEF;
+    }
+
+    #sp .inquiry-content__text {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    #sp .inquiry-content__email-address--text {
+        font-size: 14px;
+    }
+}
