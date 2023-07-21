@@ -71,13 +71,10 @@
     padding: 26px 0;
 }
 #sp .job-change-example__card .splide__track {
-    overflow: visible;
+    overflow: hidden;
 }
 #sp .job-change-example__card .splide__pagination {
     bottom: -4px;
-}
-#sp .job-change-example__card .splide__pagination__page {
-
 }
 #sp .job-change-example__card .splide__pagination__page {
     width: 8px;
