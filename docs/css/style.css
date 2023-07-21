@@ -50,7 +50,7 @@ dt {
     color: #FFFFFF;
 }
 .text-black {
-    color: #151515;
+    color: #3C3D3D;
 }
 .text-gray {
     color: #7B7B7B;
@@ -79,6 +79,15 @@ dt {
 .bg-primary {
     background: #5D5FEF;
 }
+.bg-brown {
+    background: #AFA6A7;
+}
+.bg-baby-blue {
+    background: #CFDEE2;
+}
+.bg-turquoise-blue {
+    background: #579DBB;
+}
 .bg-white {
     background: #FFFFFF;
 }
@@ -90,6 +99,9 @@ dt {
 }
 .bg-black {
     background: #151515;
+}
+.bg-brown-yellow {
+    background: linear-gradient(180deg, #695D5C 35%, #FFF8DD 46%);
 }
 
 /* default */
@@ -120,19 +132,20 @@ img {
     max-width: 100%;
     height: auto;
 }
-.cta-button {
-    display: inline-block;
+/*.cta-button {*/
+/*    display: inline-block;*/
 
-    padding: 16px 0;
-    border-radius: 4px;
-    border: solid 5px #FFFFFF;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    letter-spacing: 1px;
-    -webkit-text-stroke: 0.004em #151515;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-}
+/*    padding: 24px 0;*/
+/*    border-radius: 8px;*/
+/*    border: solid 1px #3C3D3D;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    cursor: pointer;*/
+/*    letter-spacing: 1px;*/
+/*    -webkit-text-stroke: 0.004em #151515;*/
+/*    box-shadow: 0 4px 0 0 #908B5C;*/
+/*    background: linear-gradient(180deg, #FFFE92 40%, #ECE077);*/
+/*}*/
 @media screen and (max-width: 376px) {
     .cta-button {
         -webkit-text-stroke: 0 #151515;
