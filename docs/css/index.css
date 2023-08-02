@@ -22,8 +22,8 @@
     width: 95%;
 }
 #sp .first-view__main--sub-text {
-    padding: 10px 0;
-    width: 82%;
+    padding: 10px 0 20px;
+    width: 72%;
 }
 #sp .first-view__cta-area {
     position: absolute;
@@ -47,7 +47,7 @@
 #sp .job-change-example__headline--decoration {
     display: block;
     width: 40%;
-    margin: 0 auto;
+    margin: 0 auto 8px;
 }
 #sp .job-change-example__headline--main-text {
     display: block;
@@ -131,7 +131,7 @@
 }
 #sp .reader-issue-solution--conjunction-1 {
     width: 85%;
-    padding: 18px 0 0;
+    padding: 60px 0 0;
 }
 #sp .reader-issue-solution--conjunction-2 {
     width: 85%;
@@ -142,16 +142,16 @@
     padding: 18px 0;
 }
 #sp .reader-issue-solution--answer-1 {
-    width: 92%;
+    width: 86%;
     padding: 14px 0;
 }
 #sp .reader-issue-solution--answer-2 {
-    width: 85%;
+    width: 86%;
     padding: 8px 0;
 }
 #sp .reader-issue-solution--answer-3 {
-    width: 90%;
-    padding: 8px 0;
+    width: 58%;
+    padding: 16px 0;
 }
 #sp .reader-issue-solution--advice-1,
 #sp .reader-issue-solution--advice-2 {

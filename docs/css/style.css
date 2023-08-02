@@ -132,23 +132,15 @@ img {
     max-width: 100%;
     height: auto;
 }
-/*.cta-button {*/
-/*    display: inline-block;*/
-
-/*    padding: 24px 0;*/
-/*    border-radius: 8px;*/
-/*    border: solid 1px #3C3D3D;*/
-/*    font-weight: bold;*/
-/*    text-align: center;*/
-/*    cursor: pointer;*/
-/*    letter-spacing: 1px;*/
-/*    -webkit-text-stroke: 0.004em #151515;*/
-/*    box-shadow: 0 4px 0 0 #908B5C;*/
-/*    background: linear-gradient(180deg, #FFFE92 40%, #ECE077);*/
-/*}*/
-@media screen and (max-width: 376px) {
-    .cta-button {
-        -webkit-text-stroke: 0 #151515;
+.cta-button {
+    animation: 1.8s bouncing-animation linear infinite;
+}
+@keyframes bouncing-animation {
+    0%, 40%, 60%, 80% {
+        transform: scale(1.0);
+    }
+    50%, 70% {
+        transform: scale(0.92);
     }
 }
 .demo-screenshot {
